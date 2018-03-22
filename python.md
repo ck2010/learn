@@ -36,13 +36,22 @@ Python不支持方法或者函数的重载。
 
 不可变类型：数字(int)、字符串(str)、元组(tuple)
 
+
 ### 第五章 数字
-布尔型： True & False
++ Python有五种基本数字类型，`int long bool float complex`
++ 布尔型： True & False
++ 标准整形：跟机器的位数相同，即32bit机器上为32位，在64bit机器上为64位
++ 长整形：在值后面加上字母L即可得到长整形
++ 双精度浮点型：对应C语言里面的double类型
++ 复数：`1+2j`
 
-标准整形：跟机器的位数相同，即32bit机器上为32位，在64bit机器上为64位
 
-长整形：在值后面加上字母L即可得到长整形
+### 第六章 序列：字符串、列表和元组
 
-双精度浮点型：对应C语言里面的double类型
-
-复数：`1+2j`
+#### 序列(list)
++ `seq[ind]`          获得下标为ind的元素
++ `seq[ind1:ind2]`    获得下标从ind1到ind2间的元素
++ `seq * expr`        序列重复expr次
++ `seq1 + seq2`       连接序列seq1和seq2
++ `obj in seq`        判断obj元素是否包含在seq中
++ `obj not in seq`    判断obj元素是否不包含在seq中
