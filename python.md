@@ -1,5 +1,9 @@
 ## Python核心编程
 
+### 第零章 Python好的资料
+
+[google python code style](http://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/contents/)
+
 ### 第一章 欢迎来到python世界
 
 #### 特点
@@ -38,7 +42,7 @@ Python不支持方法或者函数的重载。
 
 
 ### 第五章 数字
-+ Python有五种基本数字类型，`int long bool float complex`
+Python有五种基本数字类型，`int long bool float complex`
 + 布尔型： True & False
 + 标准整形：跟机器的位数相同，即32bit机器上为32位，在64bit机器上为64位
 + 长整形：在值后面加上字母L即可得到长整形
@@ -55,3 +59,8 @@ Python不支持方法或者函数的重载。
 + `seq1 + seq2`       连接序列seq1和seq2
 + `obj in seq`        判断obj元素是否包含在seq中
 + `obj not in seq`    判断obj元素是否不包含在seq中
++ 切片操作(`[ind],[start:end],[start:end:step]`)
+
+#### 字符串
++ 字符串连接推荐使用 `''.join(('abc', 'def', 'hij'))` 或者 `'%s %s %s' % ('ab', 'cd', 'ef')`; 不推荐使用`'ab'+'bc'+'cd'`, 因为Python必须为每个参加连接操作的字符串分配新的内存，包括新产生的字符串，效率很低。而前面两种方法只需要产生一个新的字符串。
+Python对象都拥有三个特征：身份，类型和值。
