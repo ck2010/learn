@@ -2,9 +2,9 @@
 
 ### 第零章 Python好的资料
 
-[google python code style](http://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/contents/)
-[廖雪峰Python2.7教程](https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000)
-[如何自学Python](https://www.zhihu.com/question/29138020)
++ [google python code style](http://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/contents/)
++ [廖雪峰Python2.7教程](https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000)
++ [如何自学Python](https://www.zhihu.com/question/29138020)
 
 ### 第一章 欢迎来到python世界
 
